@@ -19,11 +19,10 @@
     "typeface-roboto": "0.0.75"
   },
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "export": "next export",
-    "deploy": "npm run build && npm run export",
-    "start": "next start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
